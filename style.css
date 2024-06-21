@@ -1,0 +1,137 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+:root {
+    font-family: "Outfit";
+    background-color: hsl(30, 54%, 90%);
+    font-weight: 250;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 650px;
+    height: 1650px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+#image-omelette {
+    width: 600px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+#title {
+    font-family: "Young serif";
+    margin-left: 25px;
+    font-weight: 200;
+}
+
+#description {
+    margin-left: 25px;
+    margin-top: -10px;
+    margin-right: 25px;
+}
+
+#prep {
+    margin-left: 60px;
+    font-weight: bold;
+    color: #800080;
+}
+
+#prep-list {
+    margin-left: 50px;
+    margin-top: -1px;
+}
+
+#prep-content > span {
+    font-weight: bold;
+    color: #302d2c;
+}
+
+#prep-content::marker {
+    color: #800080;
+}
+
+#prep-content span {
+    margin-left: 20px;
+}
+
+#prep-content {
+    margin-top: 10px;
+}
+
+#ingredient {
+    margin-left: 25px;
+    color: #755b3c;
+    margin-top: 50px;
+}
+
+#ingredient-list {
+    margin-top: -5px;
+}
+
+#ingredient-content::marker {
+    color: #755b3c;
+}
+
+#ingredient-content span {
+    margin-left: 20px;
+}
+
+#ingredient-content {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#instructions {
+    margin-top: 50px;
+    margin-left: 25px;
+    color: #755b3c
+}
+
+#instructions-content::marker {
+    color: #755b3c;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#instructions-content {
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-right: 25px;
+}
+
+#instructions-list span {
+    font-weight: bold;
+    color: #302d2c;
+}
+
+#nutrition {
+    color: #755b3c;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+p {
+    margin-left: 25px;
+}
+
+th, td {
+    border-bottom: 1px solid #f3e6d8;
+    padding-top: 20px;
+}
+
+th {
+    text-align: left;
+    padding-left: 40px;
+    font-weight: 300;
+}
+
+td {
+    font-weight: bold;
+    color: #755b3c;
+}
+
